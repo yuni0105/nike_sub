@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'ELAND_Nice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') 
+               format('woff');
+               font-weight: normal;
+               font-style: normal;
+   }
+@font-face {
+   font-family: 'ELAND_Choice_L';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_L.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   }
+
+@font-face {
+   font-family: 'ELAND_Choice_M';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_B.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;}
+
+@font-face {
+   font-family: 'Pretendard-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+
+
+#contents{width: 100%; height:auto; margin:0 auto; 
+background-color: ;}
+
+.top{width:100%; height:560px; margin:0 auto; z-index: 1; position:relative;  background-color: #f5f5f5;}
+#slider{width:900px; height:400px; margin:0 auto; background-color:;}
+.airmaxmain{width:900px; height:400px; margin:0 auto;} 
+.airmaxmain img{width:100%; margin:0 auto; z-index:3;}
+.main_text{width:300px; height:172px; z-index:1; position: relative; top:-170px; left:-30px; background-color:  ;}
+.main_text {font-size:25px; font-family:"ELAND_Nice_M"; line-height: 46px; letter-spacing:-4px; }
+
+
+
+section{width:100%; height:9000px; margin:0; background-color: }
+
+.info{width:100%; height:200px; margin:0 auto; position:relative; bottom:100px; background-color: ;}
+.detext{width:1000px; height:200px; margin:0 auto; background-color: }
+.DE1{width:500px; height:150px; margin:0 auto; float:left; font-size:10px; text-align:center; letter-spacing:5px; font-family:"Pretendard-Regular"; background-color:}
+.DE2{width:500px; height:150px; margin:0 auto; float:left; font-size:10px; text-align:center; letter-spacing:5px; font-family:"Pretendard-Regular"; background-color:}
+
+.review{width:100%; height:400px; margin:0 auto; position: relative; bottom:30px;  background-color:#f5f5f5;}
+
+.review_box{width:1200px; height:450px; margin:0 auto; background-color:}
+.review_box h1{text-align: center; font-family:'Pretendard-Regular'; padding-top: 20px;}
+
+.box1{width:350px; height:300px; margin:25px; float:left; font-size:13px; text-align: center; letter-spacing: 5px; font-family:"pretendard-Regular"; background-color:#ffffff;}
+.box1 h3, p {margin-top:30px;}
+
+.box2{width:350px; height:300px; margin:25px; float:left; font-size:13px; text-align: center; letter-spacing: 5px; font-family:"pretendard-Regular"; background-color:#ffffff;}
+.box2 h3, p {margin-top:30px;}
+
+.box3{width:350px; height:300px; margin:25px; float:left; font-size:13px; text-align: center; letter-spacing: 5px; font-family:"pretendard-Regular"; background-color:#ffffff;}
+.box3 h3, p {margin-top:30px;}
+
+.img_video{width:1000px; height:590px; margin:0 auto; background-color: }
+.one{width:464px; height:590px; margin-left:30px; }
+.one img{width:100%;}
+
+.two{width:464px; height:590px; position:relative; top:-590px; float:right; 
+margin-right:30px; }
+.two video{width:100%;}    
+
+.img_img {width:1000px; height:590px; margin:0 auto; }
+.three{width:464px; height:590px; margin-left:30px; }
+.three img{width:100%;}
+
+.four{width:464px; height:590px; position:relative; top:-590px; float:right; 
+margin-right:30px;}
+.four img{width:100%;}    
+
+.detail{width:1000px; height:auto; margin:0 auto; background-color: }
+.detail_image{width:100%; height:7000px; margin:0 auto; }
+.detail_image img{width:100%; margin:0 auto; position: relative; top:-400px;}
+
+footer{display:flex; justify-content:center; width:100%; height:350px; font-family:"ELAND_Choice_L"; 
+margin:0 auto; color:white; background-color:black;}
+.footer_box a{text-decoration: none; color:white;}
+.footer_box {float:left; width:1000px; height:400; margin:0 auto; background-color: }
+
+.footer1{float:left; width:200px; height:200px; margin:30px 0 0 20px; text-align:center; background-color: }
+.footer2{float:left; width:200px; height:200px; margin:30px 0 0 20px; text-align: center; background-color: }
+.footer3 {float:left; width:200px; height:200px; margin:30px 0 0 20px; text-align:center; background-color: }
+.footer4{width:600px; height:300px; margin:0 auto; text-align: center; background-color:;}
+.footer4 p{font-size: small;}
+
+.footerlogo {float:left; margin-top:30px; width:160px; height: 100px; background-color: }
+.footerlogo img{width:120px; height:40px; margin:25px;}
